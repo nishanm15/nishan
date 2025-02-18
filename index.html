@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishan</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+
+</head>
+<body class="h-full overflow-hidden bg-slate-900">
+   
+    <!-- Header -->
+    <div class="parentContainer  h-screen w-full max-w-full">
+
+        <div class="header w-full h-[52px] bg-pink-100 border-b border-slate-600 p-4 flex justify-between items-center" >
+          <h1 class="brandName font-mono text-[20px] md:text-[23px] font-[1000] md:ml-3" >< Nishan /></h1>
+         
+          <div class="menuBtn flex gap-7 items-center ">
+            <!-- <button class="getStartedBtn w-28 md:w-40 h-11 px-4 md:px-8 bg-red-600 text-white hover:bg-red-700 rounded-full">Get Started</button> -->
+          <i id="bars" class="fa fa-bars cursor-pointer block md:!hidden" ></i> 
+            <!-- Desktop Nav -->
+
+            <div class="desktopNav flex hidden md:block">
+              <ul class="ul flex gap-8 font-mono cursor-pointer ">
+                <li class="home border-b-2 border-blue-700 hover:text-blue-700">Home</li>
+                <li onclick="window.location.href = './pages/about.html';" class="about border-b-2 border-red-700 hover:text-red-700" >About</li>
+                <li class="contact border-b-2 border-green-700 hover:text-green-700" >Contact</li>
+                <li class="projects border-b-2 border-yellow-500 hover:text-yellow-700">Projects</li>
+              </ul>
+            </div>
+          </div>  
+  
+          </div>
+          <!-- Navbar -->
+          <div id="navBar" class="navBar w-72 h-full text-black bg-pink-100 fixed z-10 top-0 px-16 py-14 transition-all duration-300 md:!hidden" style="left:-300px;">
+            <i id="times" class="fa fa-times cursor-pointer float-right -my-8 -mx-6 text-black md:!hidden " ></i>
+            <ul class="ul py-4 font-mono cursor-pointer">
+              <li class="home py-2 hover:text-blue-700">Home</li>
+              <li onclick="window.location.href = './pages/about.html';" class="about py-2  hover:text-red-700" >About</li>
+              <li class="contact py-2  hover:text-green-700" >Contact</li>
+              <li class="projects py-2  hover:text-yellow-700">Projects</li>
+
+            </ul>
+          </div>
+
+        
+
+          <!-- Overlay -->
+          <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 z-9 hidden md:hidden"></div>
+
+         
+<center>
+         <!-- Cover -->
+          <div id="cover" class="cover w-full max-w-full h-screen bg-slate-900 flex justify-center pt-24 md:pt-28" >
+            <div id="coverContent" class="coverContent flex flex-col w-full items-center ">
+              <h1 class="text-white font-[400] text-[25px] md:text-[38px] font-mono ">Hi, I am Nishan</h1>
+              <div id="typedDiv" class=" font-mono text-green-300 text-[17px] md:text-[30px] font-[800] mx-auto w-full items-center">
+                <span id="typed" ></span>
+              </div>
+              <div class="btns pt-12 text-white gap-4 text-sm flex">
+                <button class="getInTouch font-mono py-2 px-4 md:py-3 md:px-5 hover:bg-pink-700 rounded-3xl bg-pink-600">Get In Touch</button>
+                <button class="resume  font-mono py-2 px-4 md:py-3 md:px-5 hover:bg-pink-700 rounded-3xl bg-pink-600">Skills</button>
+              </div>
+
+              <div class="flex space-x-5 pt-8  ">
+                <!-- Facebook Icon -->
+                <a href="https://www.facebook.com" class="text-white">
+                  <i class="fab fa-facebook text-2xl"></i>
+                </a>
+              
+                <!-- Twitter Icon -->
+                <a href="https://twitter.com" class="text-white ">
+                  <i class="fab fa-twitter text-2xl"></i>
+                </a>
+              
+                <!-- Instagram Icon -->
+                <a href="https://www.instagram.com" class="text-white">
+                  <i class="fab fa-instagram text-2xl"></i>
+                </a>
+              
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com" class="text-white">
+                  <i class="fab fa-linkedin text-2xl"></i>
+                </a>
+
+                <!-- Github icon -->
+                <a href="https://www.github.com" class="text-white">
+                  <i class="fab fa-github text-2xl "></i>
+                </a>
+              </div>
+           
+              
+
+
+
+            </div>
+           
+          </div>
+        
+        </center>
+       <center> <footer class="text-sm font-mono bg-pink-600 w-full absolute bottom-0 left-0 text-white p-4">Copyright &copy; 2025 || Designed by Nishan</footer> </center>
+
+
+ 
+  </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
