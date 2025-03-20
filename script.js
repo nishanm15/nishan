@@ -21,7 +21,7 @@ overlay.addEventListener("click" , () => {
 // typing effect
 
 var options = {
-    strings: [ " A Bug Bounty Hunter","A Developer" , "A Learner"],
+    strings: [ " A Hacker","A Developer" , "A Learner"],
     typeSpeed: 70,   // Speed of typing
     backSpeed: 40,    // Speed of deleting
     backDelay: 1000,  // Delay before deleting starts
